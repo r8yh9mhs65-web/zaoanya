@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>早安鸭 · 技术支持</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:-apple-system,'PingFang SC','Hiragino Sans GB',sans-serif;
+  background:linear-gradient(168deg,#FFF7EC 0%,#FFF1E0 55%,#FFE8D6 100%);
+  min-height:100vh; padding:48px 20px 80px; }
+.card { max-width:680px; margin:0 auto; }
+h1 { font-size:34px; font-weight:900; color:#3D2410; text-align:center; letter-spacing:2px; }
+.tagline { margin-top:12px; text-align:center; font-size:15px; color:#8A6A52; letter-spacing:2px; }
+.chip { display:inline-block; margin:36px auto 0; padding:8px 22px; border-radius:999px;
+  background:#F26B1D; color:#FFF8EF; font-size:13px; font-weight:700; letter-spacing:4px; }
+.center { text-align:center; }
+section { margin-top:20px; background:rgba(255,255,255,.9); border-radius:18px;
+  padding:26px 28px; box-shadow:0 10px 30px rgba(150,80,30,.10); }
+section h2 { font-size:18px; color:#3D2410; font-weight:800; margin-bottom:14px; }
+section p, section li { font-size:15px; line-height:1.8; color:#5C3A22; }
+section ol, section ul { padding-left:22px; }
+.faq { margin-bottom:10px; }
+.faq b { color:#3D2410; }
+.contact { text-align:center; }
+.contact p { margin-top:6px; }
+.mail { display:inline-block; margin-top:14px; padding:12px 34px; border-radius:999px;
+  background:#FBEADC; color:#C05F33; font-size:15px; font-weight:700; text-decoration:none; }
+.foot { margin-top:40px; text-align:center; font-size:13px; color:#B08A6C; letter-spacing:2px; }
+a { color:#C05F33; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>🦆 早安鸭 · 技术支持</h1>
+  <div class="tagline">会看路况的智能通勤闹钟</div>
+  <div class="center"><span class="chip">帮助与联系</span></div>
+
+  <section>
+    <h2>联系我们</h2>
+    <div class="contact">
+      <p>使用中遇到问题或有建议，欢迎发邮件告诉我们：</p>
+      <a class="mail" href="mailto:victorlixueyuan@foxmail.com">victorlixueyuan@foxmail.com</a>
+      <p style="margin-top:14px; font-size:13px; color:#B08A6C;">我们会在 1~2 个工作日内回复。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>常见问题</h2>
+    <div class="faq"><b>Q：为什么需要「始终允许」定位权限？</b><br>
+      A：仅用于通过系统地理围栏识别「离家 / 到达公司」两个时刻，自动记录通勤时间以优化闹钟预测。App 不记录行踪轨迹、不上传任何数据。</div>
+    <div class="faq"><b>Q：闹钟没有响？</b><br>
+      A：请依次检查：① 系统设置 → 通知 → 早安鸭，允许通知（本地通知模式）；② iOS 26 用户请允许「闹钟」权限（系统闹钟模式）；③ 删除 App 重装后需重新允许权限并重新预测。</div>
+    <div class="faq"><b>Q：静音或勿扰模式下会响铃吗？</b><br>
+      A：iOS 26 及以上使用系统级闹钟，静音、勿扰下均可正常响铃；低版本通过本地通知提醒，静音拨片打开时通知不发声（系统限制），会改为振动。</div>
+    <div class="faq"><b>Q：起床时间是怎么算的？</b><br>
+      A：起床时间 = 期望到达时间 − 出门准备时间 − 通勤耗时。通勤耗时由历史记录、星期规律、天气和出门前 1 小时的实时路况共同决定，并随使用越来越准。</div>
+    <div class="faq"><b>Q：我的通勤数据保存在哪里？</b><br>
+      A：全部保存在你的手机本地，不经过任何服务器，卸载 App 即彻底删除。</div>
+  </section>
+
+  <section>
+    <h2>关于</h2>
+    <p>早安鸭 · 智能通勤闹钟（版本 1.0）<br>
+    夜夜安心睡，每早准时到。</p>
+  </section>
+
+  <div class="foot">© 2026 lixueyuan · 早安鸭</div>
+</div>
+</body>
+</html>
